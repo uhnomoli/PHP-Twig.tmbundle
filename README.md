@@ -19,7 +19,7 @@ I included a few additional things in `/Extras`. There is a screenshot _(same on
 
 #### Screenshot
 
-[![Preview](http://github.com/Anomareh/Twig.tmbundle/raw/master/Extras/screens/small.jpg)][6]
+[![Preview](http://github.com/Anomareh/PHP-Twig.tmbundle/raw/master/Extras/screens/small.jpg)][6]
 
 
 [1]: http://macromates.com/
@@ -27,4 +27,4 @@ I included a few additional things in `/Extras`. There is a screenshot _(same on
 [3]: http://www.twig-project.org/
 [4]: http://svn.textmate.org/trunk/Bundles/Python%20Django%20Templates.tmbundle/
 [5]: http://svn.textmate.org/
-[6]: http://github.com/Anomareh/Twig.tmbundle/raw/master/Extras/screens/full.jpg
+[6]: http://github.com/Anomareh/PHP-Twig.tmbundle/raw/master/Extras/screens/full.jpg
