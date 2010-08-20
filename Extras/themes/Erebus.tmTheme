@@ -256,6 +256,50 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>PHP Namespaces</string>
+			<key>scope</key>
+			<string>support.other.namespace, entity.name.type.namespace</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFD2A6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Namespace Alias</string>
+			<key>scope</key>
+			<string>support.other.namespace.use-as.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFB266</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Namespace Keyword</string>
+			<key>scope</key>
+			<string>variable.language.namespace.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D17B7B</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Namespace Separator</string>
+			<key>scope</key>
+			<string>punctuation.separator.inheritance.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E57EDD</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>CSS ID / Class</string>
 			<key>scope</key>
 			<string>entity.other.attribute-name.id.css, entity.other.attribute-name.class.css</string>
