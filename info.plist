@@ -7,7 +7,7 @@
 	<key>contactName</key>
 	<string>Andrew Fricke</string>
 	<key>description</key>
-	<string><a href="http://www.twig-project.org/">Twig</a>, the flexible, fast, and secure template language for PHP.</string>
+	<string>&lt;a href="http://www.twig-project.org/"&gt;Twig&lt;/a&gt;, the flexible, fast, and secure template language for PHP.</string>
 	<key>name</key>
 	<string>PHP-Twig</string>
 	<key>uuid</key>
