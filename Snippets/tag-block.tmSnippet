@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
     <key>content</key>
-    <string>{% set ${1:var} = ${2:value} %}$0</string>
+    <string>{% $1 %}$0</string>
     <key>name</key>
-    <string>set</string>
+    <string>{% ... %}</string>
     <key>scope</key>
     <string>text.html.twig</string>
     <key>tabTrigger</key>
-    <string>set</string>
+    <string>%%</string>
     <key>uuid</key>
-    <string>3FC91D7E-2AE9-418C-AE6A-118179494198</string>
+    <string>237FD3B7-6E10-4EC6-AE0D-3E15F4C81F5F</string>
 </dict>
 </plist>
