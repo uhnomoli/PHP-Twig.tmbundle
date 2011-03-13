@@ -9,7 +9,7 @@ I'd like to thank a few people that have helped me out with the creation of this
 
 * __taavi__ for fixing a bug stopping the bundle from actually working in TextMate.
 * __DuoSRX__ for contributing a bunch of snippets.
-* __Infininight__ in __##textmate___[freenode]_ for helping me a ton with the rewrite.
+* __Infininight__ in __##textmate[___freenode___]__ for helping me a ton with the rewrite.
 
 
 ### Notes
