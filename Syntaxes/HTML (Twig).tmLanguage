@@ -948,7 +948,7 @@
         <dict>
             <key>patterns</key>
             <array>
-                <!-- DOT NOTATION -->
+                <!-- DOT NOTATION (properties) -->
                 <dict>
                     <key>captures</key>
                     <dict>
@@ -969,6 +969,101 @@
                         (\.)([a-zA-Z_\x{7f}-\x{ff}][a-zA-Z0-9_\x{7f}-\x{ff}]*)
                         (?=[\.\s\|\[\)\]\}:,])
                     </string>
+                </dict>
+                
+                <!-- DOT NOTATION (methods) -->
+                <dict>
+                    <key>begin</key>
+                    <string>(?x)
+                        (?&lt;=[a-zA-Z0-9_\x{7f}-\x{ff}])
+                        (\.)([a-zA-Z_\x{7f}-\x{ff}][a-zA-Z0-9_\x{7f}-\x{ff}]*)
+                        (\()
+                    </string>
+                    <key>beginCaptures</key>
+                    <dict>
+                        <key>1</key>
+                        <dict>
+                            <key>name</key>
+                            <string>punctuation.separator.property.twig</string>
+                        </dict>
+                        <key>2</key>
+                        <dict>
+                            <key>name</key>
+                            <string>variable.other.property.twig</string>
+                        </dict>
+                        <key>3</key>
+                        <dict>
+                            <key>name</key>
+                            <string>punctuation.definition.parameters.begin.twig</string>
+                        </dict>
+                    </dict>
+                    <key>end</key>
+                    <string>\)</string>
+                    <key>endCaptures</key>
+                    <dict>
+                        <key>0</key>
+                        <dict>
+                            <key>name</key>
+                            <string>punctuation.definition.parameters.end.twig</string>
+                        </dict>
+                    </dict>
+                    <key>patterns</key>
+                    <array>
+                        <dict>
+                            <key>include</key>
+                            <string>#twig-constants</string>
+                        </dict>
+                        <dict>
+                            <key>include</key>
+                            <string>#twig-functions-warg</string>
+                        </dict>
+                        <dict>
+                            <key>include</key>
+                            <string>#twig-functions-warg</string>
+                        </dict>
+                        <dict>
+                            <key>include</key>
+                            <string>#twig-functions</string>
+                        </dict>
+                        <dict>
+                            <key>include</key>
+                            <string>#twig-macros</string>
+                        </dict>
+                        <dict>
+                            <key>include</key>
+                            <string>#twig-objects</string>
+                        </dict>
+                        <dict>
+                            <key>include</key>
+                            <string>#twig-properties</string>
+                        </dict>
+                        <dict>
+                            <key>include</key>
+                            <string>#twig-filters-warg</string>
+                        </dict>
+                        <dict>
+                            <key>include</key>
+                            <string>#twig-filters</string>
+                        </dict>
+                        <dict>
+                            <key>include</key>
+                            <string>#twig-filters-warg-ud</string>
+                        </dict>
+                        <dict>
+                            <key>include</key>
+                            <string>#twig-filters-ud</string>
+                        </dict>
+                        <dict>
+                            <key>include</key>
+                            <string>#twig-strings</string>
+                        </dict>
+                        <dict>
+                            <key>include</key>
+                            <string>#twig-arrays</string>
+                        </dict>
+                    </array>
+                    <key>contentName</key>
+                    <string>meta.function.arguments.twig</string>
                 </dict>
                 
                 <!-- ARRAY NOTATION -->
