@@ -13,14 +13,14 @@
         (&lt;(?i:head|body|table|thead|tbody|tfoot|tr|div|select|fieldset|style|script|ul|ol|li|form|dl)\b.*?&gt;
         |&lt;!--(?!.*--\s*&gt;)
         |^&lt;!--\ \#tminclude\ (?&gt;.*?--&gt;)$
-        |\{%\s+(if|for|spaceless|raw|block|autoescape|macro|)
+        |\{%\s+(if|for|spaceless|raw|autoescape|macro|)
         )</string>
     <key>foldingStopMarker</key>
     <string>(?x)
         (&lt;/(?i:head|body|table|thead|tbody|tfoot|tr|div|select|fieldset|style|script|ul|ol|li|form|dl)&gt;
         |^(?!.*?&lt;!--).*?--\s*&gt;
         |^&lt;!--\ end\ tminclude\ --&gt;$
-        |\{%\s+end(if|for|spaceless|raw|block|autoescape|macro|)
+        |\{%\s+end(if|for|spaceless|raw|autoescape|macro|)
         )</string>
     <key>keyEquivalent</key>
     <string>^~T</string>
@@ -1395,7 +1395,7 @@
                     ([a-zA-Z_\x{7f}-\x{ff}][a-zA-Z0-9_\x{7f}-\x{ff}]*)
                     (?:
                         (\.)([a-zA-Z_\x{7f}-\x{ff}][a-zA-Z0-9_\x{7f}-\x{ff}]*)
-                    )*
+                    )
                     (\()
             </string>
             <key>beginCaptures</key>
