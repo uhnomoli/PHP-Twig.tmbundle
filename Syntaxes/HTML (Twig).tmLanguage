@@ -809,7 +809,7 @@
                 <!-- LANGUAGE -->
                 <dict>
                     <key>match</key>
-                    <string>(?i)(?&lt;=[\s\[\(\{:,])(?:true|false)(?=[\s\)\]\}\,])</string>
+                    <string>(?i)(?&lt;=[\s\[\(\{:,])(?:true|false|null)(?=[\s\)\]\}\,])</string>
                     <key>name</key>
                     <string>constant.language.twig</string>
                 </dict>
