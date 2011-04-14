@@ -809,7 +809,7 @@
                 <!-- LANGUAGE -->
                 <dict>
                     <key>match</key>
-                    <string>(?i)(?&lt;=[\s\[\(\{:,])(?:true|false|null)(?=[\s\)\]\}\,])</string>
+                    <string>(?&lt;=[\s\[\(\{:,])(?:true|false|none)(?=[\s\)\]\}\,])</string>
                     <key>name</key>
                     <string>constant.language.twig</string>
                 </dict>
@@ -1478,7 +1478,7 @@
                 </dict>
             </dict>
             <key>match</key>
-            <string>(?&lt;=[\s\(\[\{:,])(even|odd|none|defined|empty)</string>
+            <string>(?&lt;=is\s)(even|odd|none|defined|empty)</string>
         </dict>
         
         <!-- MACROS -->
