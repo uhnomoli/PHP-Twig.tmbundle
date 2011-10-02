@@ -55,8 +55,8 @@ To aid theming, here's a list of what each Twig element is scoped to.
                 End:   punctuation.section.array.end.twig
                 
     Strings:
-        Single:        string.quoted.single.twig
-        Double:        string.quoted.double.twig
+        Single:        string.quoted.singled.twig
+        Double:        string.quoted.doubled.twig
     Arrays:            meta.array.twig
         Accessor:
             Begin:     punctuation.section.array.begin.twig
