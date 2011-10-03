@@ -43,6 +43,7 @@ To aid theming, here's a list of what each Twig element is scoped to.
     Operators:
         Arithmetic:    keyword.operator.arithmetic.twig
         Assignment:    keyword.operator.assignment.twig
+        Bitwise:       keyword.operator.bitwise.twig
         Comparison:    keyword.operator.comparison.twig
         Logical:       keyword.operator.logical.twig
         Other:         keyword.operator.other.twig
