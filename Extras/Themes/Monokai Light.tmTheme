@@ -453,18 +453,7 @@
             <key>name</key>
             <string>Twig Punctuation</string>
             <key>scope</key>
-            <string>punctuation.separator.object.twig</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#FFFFFF</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>Twig Punctuation</string>
-            <key>scope</key>
-            <string>punctuation.separator.key-value.twig</string>
+            <string>punctuation.separator.object.twig, punctuation.separator.key-value.twig</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -484,9 +473,9 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Twig Start Parens</string>
+            <string>Twig Parens</string>
             <key>scope</key>
-            <string>punctuation.definition.parameters.begin.twig</string>
+            <string>punctuation.definition.parameters.begin.twig, punctuation.definition.parameters.end.twig</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -495,20 +484,9 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Twig End Parens</string>
+            <string>Twig Quotes</string>
             <key>scope</key>
-            <string>punctuation.definition.parameters.end.twig</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#FFFFFF</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>Twig Single Quotes</string>
-            <key>scope</key>
-            <string>string.quoted.singled.twig</string>
+            <string>string.quoted.singled.twig, string.quoted.doubled.twig</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -517,31 +495,9 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Twig Doubled Quotes</string>
+            <string>Twig Array</string>
             <key>scope</key>
-            <string>string.quoted.doubled.twig</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#CFCFC2</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>Twig Array Ini</string>
-            <key>scope</key>
-            <string>punctuation.section.array.begin.twig</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#FFFFFF</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>Twig Array End</string>
-            <key>scope</key>
-            <string>punctuation.section.array.end.twig</string>
+            <string>punctuation.section.array.begin.twig, punctuation.section.array.end.twig</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
