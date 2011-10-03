@@ -484,17 +484,6 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Twig Quotes</string>
-            <key>scope</key>
-            <string>string.quoted.singled.twig, string.quoted.doubled.twig</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#CFCFC2</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
             <string>Twig Array</string>
             <key>scope</key>
             <string>punctuation.section.array.begin.twig, punctuation.section.array.end.twig</string>
