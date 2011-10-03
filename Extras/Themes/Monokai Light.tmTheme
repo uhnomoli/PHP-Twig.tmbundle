@@ -446,7 +446,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#FFFFFF</string>
+                <string>#F92672</string>
             </dict>
         </dict>
         <dict>
@@ -475,7 +475,7 @@
             <key>name</key>
             <string>Twig Macros</string>
             <key>scope</key>
-            <string>meta.function-call.twig</string>
+            <string>meta.function-call.twig, meta.function-call.other.twig</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -548,9 +548,41 @@
                 <string>#FFFFFF</string>
             </dict>
         </dict>
+        <dict>
+            <key>name</key>
+            <string>Twig Hash</string>
+            <key>scope</key>
+            <string>punctuation.section.hash.begin.twig, punctuation.section.hash.end.twig</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFFFFF</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Twig Hash Key</string>
+            <key>scope</key>
+            <string>punctuation.separator.key-value.twig</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#F92672</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Twig Function Argument</string>
+            <key>scope</key>
+            <string>meta.function.arguments.twig</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFFFFF</string>
+            </dict>
+        </dict>
 	</array>
 	<key>uuid</key>
 	<string>D8D5E82E-3D5B-46B5-B38E-8C841C21347D</string>
 </dict>
 </plist>
-
