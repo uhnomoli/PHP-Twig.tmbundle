@@ -5,6 +5,7 @@
     <key>fileTypes</key>
     <array>
         <string>twig</string>
+        <string>html.twig</string>
     </array>
     <key>firstLineMatch</key>
     <string>&lt;!DOCTYPE|&lt;(?i:html)|&lt;\?(?i:php)|\{\{|\{%|\{#</string>
