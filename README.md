@@ -3,6 +3,21 @@
 A [TextMate][1] _(and [Sublime Text][2])_ bundle for [Twig][3].
 
 
+### INSTALLATION
+
+1. Go to menu bar: "Sublime Text 2 > Preferences > Browse Packages..."
+
+    Alternate method, on OS X, in Terminal:
+
+        $ cd ~/Library/Application Support/Sublime Text 2/Packages
+
+2. Once that folder is open, close Sublime Text 2.
+
+3. Clone PHP Twig tmBundle into this folder. 
+
+4. Restart Sublime Text 2.
+
+
 ### Thanks
 
 I'd like to thank a few people that have helped me out with the creation of this bundle.
