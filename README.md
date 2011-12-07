@@ -1,6 +1,6 @@
 # PHP Twig tmBundle
 
-A [TextMate][1] _(and [Sublime Text][2])_ bundle for [Twig][3].
+A [TextMate][1] _(and [Sublime Text](http://www.sublimetext.com/))_ bundle for [Twig][3].
 
 
 ### Thanks
@@ -9,7 +9,7 @@ I'd like to thank a few people that have helped me out with the creation of this
 
 * __taavi__ for fixing a bug stopping the bundle from actually working in TextMate.
 * __DuoSRX__ for contributing a bunch of snippets.
-* __Infininight__ in __##textmate[___freenode___]__ for helping me a ton with the rewrite.
+* __Infininight__ in __##textmate[__*freenode*__]__ for helping me a ton with the rewrite.
 * __csuarez__ for contributing an updated theme.
 
 
@@ -18,6 +18,27 @@ I'd like to thank a few people that have helped me out with the creation of this
 This is my first tmbundle and it was made and tested in [Sublime Text][2]. Everything should work fine, but if something doesn't please report it and I'll do my best to get it fixed.
 
 I'm also not extremely familiar with TextMate's method of creating language syntaxes. If anyone has any input on optimizing it or on anything else, such as choices in grammar scopes, please feel free to let me know.
+
+
+### Installation
+
+TextMate, and most editors that support TextMate bundles, allow the installation of bundles simply by extracting an archive or cloning the repository into the application's bundle directory. This bundle is no different. Below is a list of common bundle directories.
+
+
+#### Sublime Text 2
+
+Linux  
+`$XDG_CONFIG_HOME/sublime-text-2/Packages` or `~/.Sublime Text 2/Packages`
+
+OS X  
+`~/Library/Application Support/Sublime Text 2/Packages`
+
+Windows  
+`%APPDATA%/Sublime Text 2/Packages/`
+
+#### TextMate
+
+`/Library/Application Support/TextMate/Bundles`
 
 
 ### Scopes
