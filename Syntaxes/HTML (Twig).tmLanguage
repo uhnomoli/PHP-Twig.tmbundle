@@ -1389,7 +1389,7 @@
         <key>twig-keywords</key>
         <dict>
             <key>match</key>
-            <string>(?&lt;=\s)((?:end)?(?:autoescape|block|filter|for|if|macro|raw|set|spaceless)|as|else|elseif|extends|from|ignore missing|import|include|only|use|with)(?=\s)</string>
+            <string>(?&lt;=\s)((?:end)?(?:autoescape|block|embed|filter|for|if|macro|raw|sandbox|set|spaceless)|as|do|else|elseif|extends|flush|from|ignore missing|import|include|only|use|with)(?=\s)</string>
             <key>name</key>
             <string>keyword.control.twig</string>
         </dict>
@@ -1398,7 +1398,7 @@
         <key>twig-functions-warg</key>
         <dict>
             <key>begin</key>
-            <string>(?&lt;=[\s\(\[\{:,])(attribute|block|constant|cycle|divisibleby|parent|range|sameas)(\()</string>
+            <string>(?&lt;=[\s\(\[\{:,])(attribute|block|constant|cycle|date|divisibleby|dump|parent|random|range|sameas|template_from_string)(\()</string>
             <key>beginCaptures</key>
             <dict>
                 <key>1</key>
@@ -1493,7 +1493,7 @@
                 </dict>
             </dict>
             <key>match</key>
-            <string>(?&lt;=is\s)(defined|empty|even|none|odd)</string>
+            <string>(?&lt;=is\s)(defined|empty|even|iterable|none|null|odd)</string>
         </dict>
         
         <!-- MACROS -->
@@ -1605,7 +1605,7 @@
         <key>twig-filters-warg</key>
         <dict>
             <key>begin</key>
-            <string>(?&lt;=(?:[a-zA-Z0-9_\x{7f}-\x{ff}\]\)\'\"]\|)|\{%\sfilter\s)(date|default|format|join|merge|replace)(\()</string>
+            <string>(?&lt;=(?:[a-zA-Z0-9_\x{7f}-\x{ff}\]\)\'\"]\|)|\{%\sfilter\s)(convert_encoding|date|date_modify|default|e|escape|format|join|merge|number_format|replace|slice|split|trim)(\()</string>
             <key>beginCaptures</key>
             <dict>
                 <key>1</key>
@@ -1700,7 +1700,7 @@
                 </dict>
             </dict>
             <key>match</key>
-            <string>(?&lt;=(?:[a-zA-Z0-9_\x{7f}-\x{ff}\]\)\'\"]\|)|\{%\sfilter\s)(capitalize|e(?:scape)?|join|(?:json|url)_encode|keys|length|lower|raw|reverse|sort|striptags|title|upper)(?=[\s\|\]\}\):,]|\.\.|\*\*)</string>
+            <string>(?&lt;=(?:[a-zA-Z0-9_\x{7f}-\x{ff}\]\)\'\"]\|)|\{%\sfilter\s)(abs|capitalize|e(?:scape)?|join|(?:json|url)_encode|keys|length|lower|nl2br|number_format|raw|reverse|sort|striptags|title|trim|upper)(?=[\s\|\]\}\):,]|\.\.|\*\*)</string>
         </dict>
         
         <!-- FILTERS (w/ arguments & user-defined) -->
