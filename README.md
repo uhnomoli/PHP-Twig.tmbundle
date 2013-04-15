@@ -1,6 +1,6 @@
 # PHP Twig tmBundle
 
-A [TextMate][1] _(and [Sublime Text](http://www.sublimetext.com/))_ bundle for [Twig][3].
+A [TextMate][textmate] _(and [Sublime Text][sublime])_ bundle for [Twig][twig].
 
 
 ### Thanks
@@ -9,13 +9,13 @@ I'd like to thank a few people that have helped me out with the creation of this
 
 * __taavi__ for fixing a bug stopping the bundle from actually working in TextMate.
 * __DuoSRX__ for contributing a bunch of snippets.
-* __Infininight__ in __##textmate[__*freenode*__]__ for helping me a ton with the rewrite.
+* __Infininight__ in __##textmate__ _(freenode)_ for helping me a ton with the rewrite.
 * __csuarez__ for contributing an updated theme.
 
 
 ### Notes
 
-This is my first tmbundle and it was made and tested in [Sublime Text][2]. Everything should work fine, but if something doesn't please report it and I'll do my best to get it fixed.
+This is my first tmbundle and it was made and tested in [Sublime Text][sublime]. Everything should work fine, but if something doesn't please report it and I'll do my best to get it fixed.
 
 I'm also not extremely familiar with TextMate's method of creating language syntaxes. If anyone has any input on optimizing it or on anything else, such as choices in grammar scopes, please feel free to let me know.
 
@@ -27,18 +27,21 @@ TextMate, and most editors that support TextMate bundles, allow the installation
 
 #### Sublime Text 2
 
-Linux  
-`$XDG_CONFIG_HOME/sublime-text-2/Packages` or `~/.Sublime Text 2/Packages`
+Linux
 
-OS X  
-`~/Library/Application Support/Sublime Text 2/Packages`
+    $XDG_CONFIG_HOME/sublime-text-2/Packages` or `~/.Sublime Text 2/Packages
 
-Windows  
-`%APPDATA%/Sublime Text 2/Packages/`
+OS X
+
+    ~/Library/Application Support/Sublime Text 2/Packages
+
+Windows
+
+    %APPDATA%/Sublime Text 2/Packages/
 
 #### TextMate
 
-`/Library/Application Support/TextMate/Bundles`
+    /Library/Application Support/TextMate/Bundles
 
 
 ### Scopes
@@ -114,14 +117,12 @@ I included a few additional things in `/Extras`. There is a screenshot _(same on
 
 
 ### Screenshot
-[![Preview][100]][6]
+[![Preview][preview-thumb]][preview]
 
 
-[1]: http://macromates.com/
-[2]: http://www.sublimetext.com/
-[3]: http://www.twig-project.org/
-[4]: http://svn.textmate.org/trunk/Bundles/Python%20Django%20Templates.tmbundle/
-[5]: http://svn.textmate.org/
-[6]: https://github.com/Anomareh/PHP-Twig.tmbundle/raw/master/Extras/Preview/preview.png
+[sublime]: http://www.sublimetext.com/
+[textmate]: http://macromates.com/
+[twig]: http://www.twig-project.org/
+[preview]: https://github.com/Anomareh/PHP-Twig.tmbundle/raw/master/Extras/Preview/preview.png
 
-[100]: https://github.com/Anomareh/PHP-Twig.tmbundle/raw/master/Extras/Preview/preview-thumb.png
+[preview-thumb]: https://github.com/Anomareh/PHP-Twig.tmbundle/raw/master/Extras/Preview/preview-thumb.png
