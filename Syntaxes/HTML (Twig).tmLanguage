@@ -1152,7 +1152,7 @@
                 <!-- SINGLE QUOTED STRINGS -->
                 <dict>
                     <key>begin</key>
-                    <string>'</string>
+                    <string>(?&lt;!\\)'</string>
                     <key>beginCaptures</key>
                     <dict>
                         <key>0</key>
@@ -1178,7 +1178,7 @@
                 <!-- DOUBLE QUOTED STRINGS -->
                 <dict>
                     <key>begin</key>
-                    <string>"</string>
+                    <string>(?&lt;!\\)"</string>
                     <key>beginCaptures</key>
                     <dict>
                         <key>0</key>
