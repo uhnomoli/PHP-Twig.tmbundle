@@ -8,7 +8,7 @@
         <string>html.twig</string>
     </array>
     <key>firstLineMatch</key>
-    <string>&lt;!DOCTYPE|&lt;(?i:html)|&lt;\?(?i:php)|\{\{|\{%|\{#</string>
+    <string>&lt;!(?i:DOCTYPE)|&lt;(?i:html)|&lt;\?(?i:php)|\{\{|\{%|\{#</string>
     <key>foldingStartMarker</key>
     <string>(?x)
         (&lt;(?i:head|body|table|thead|tbody|tfoot|tr|div|select|fieldset|style|script|ul|ol|li|form|dl)\b.*?&gt;
@@ -164,7 +164,7 @@
             <array>
                 <dict>
                     <key>begin</key>
-                    <string>(DOCTYPE)</string>
+                    <string>(?i:DOCTYPE)</string>
                     <key>captures</key>
                     <dict>
                         <key>1</key>
