@@ -513,7 +513,7 @@
             <key>name</key>
             <string>invalid.illegal.bad-angle-bracket.html</string>
         </dict>
-        
+
         <!-- TWIG START -->
         <dict>
             <key>include</key>
@@ -543,7 +543,7 @@
                     <key>include</key>
                     <string>#php</string>
                 </dict>
-                
+
                 <!-- TWIG START -->
                 <dict>
                     <key>include</key>
@@ -558,7 +558,7 @@
                     <string>#twig-comment-tags</string>
                 </dict>
                 <!-- TWIG END -->
-                
+
                 <dict>
                     <key>include</key>
                     <string>#python</string>
@@ -596,9 +596,9 @@
                 </dict>
             </array>
         </dict>
-        
+
         <!-- TWIG START -->
-        
+
         <!-- VARIABLES -->
         <key>twig-variable-tags</key>
         <dict>
@@ -684,7 +684,7 @@
                 </dict>
             </array>
         </dict>
-        
+
         <!-- EXPRESSIONS -->
         <key>twig-expression-tags</key>
         <dict>
@@ -774,7 +774,7 @@
                 </dict>
             </array>
         </dict>
-        
+
         <!-- COMMENTS -->
         <key>twig-comment-tags</key>
         <dict>
@@ -801,7 +801,7 @@
             <key>name</key>
             <string>comment.block.twig</string>
         </dict>
-        
+
         <!-- CONSTANTS -->
         <key>twig-constants</key>
         <dict>
@@ -823,7 +823,7 @@
                 </dict>
             </array>
         </dict>
-        
+
         <!-- OPERATORS -->
         <key>twig-operators</key>
         <dict>
@@ -842,7 +842,7 @@
                     <key>match</key>
                     <string>(?&lt;=\s)(\+|-|\*|/|%|//)(?=\s)</string>
                 </dict>
-                
+
                 <!-- ASSIGNMENT -->
                 <dict>
                     <key>captures</key>
@@ -856,7 +856,7 @@
                     <key>match</key>
                     <string>(?&lt;=\s)(=|~)(?=\s)</string>
                 </dict>
-                
+
                 <!-- BITWISE -->
                 <dict>
                     <key>captures</key>
@@ -870,7 +870,7 @@
                     <key>match</key>
                     <string>(?&lt;=\s)(&amp;|\||\^)(?=\s)</string>
                 </dict>
-                
+
                 <!-- COMPARISON -->
                 <dict>
                     <key>captures</key>
@@ -884,7 +884,7 @@
                     <key>match</key>
                     <string>(?&lt;=\s)((?:!|=)=|&lt;=?|&gt;=?|i(?:s|n))(?=\s)</string>
                 </dict>
-                
+
                 <!-- LOGICAL -->
                 <dict>
                     <key>captures</key>
@@ -898,7 +898,7 @@
                     <key>match</key>
                     <string>(?&lt;=\s)(not|or|and|\?|:)(?=\s)</string>
                 </dict>
-                
+
                 <!-- (**) -->
                 <dict>
                     <key>captures</key>
@@ -912,7 +912,7 @@
                     <key>match</key>
                     <string>(?&lt;=[a-zA-Z0-9_\x{7f}-\x{ff}\]\)'"])\*\*(?=[a-zA-Z0-9_\x{7f}-\x{ff}'"])</string>
                 </dict>
-                
+
                 <!-- (..) -->
                 <dict>
                     <key>captures</key>
@@ -926,7 +926,7 @@
                     <key>match</key>
                     <string>(?&lt;=[a-zA-Z0-9_\x{7f}-\x{ff}\]\)'"])\.\.(?=[a-zA-Z0-9_\x{7f}-\x{ff}'"])</string>
                 </dict>
-                
+
                 <!-- (|) -->
                 <dict>
                     <key>captures</key>
@@ -942,7 +942,7 @@
                 </dict>
             </array>
         </dict>
-        
+
         <!-- OBJECTS -->
         <key>twig-objects</key>
         <dict>
@@ -957,7 +957,7 @@
             <key>match</key>
             <string>(?&lt;=[\s\{\[\(:,])([a-zA-Z_\x{7f}-\x{ff}][a-zA-Z0-9_\x{7f}-\x{ff}]*)(?=[\s\}\[\]\(\)\.\|,:])</string>
         </dict>
-        
+
         <!-- PROPERTIES -->
         <key>twig-properties</key>
         <dict>
@@ -985,7 +985,7 @@
                         (?=[\.\s\|\[\)\]\}:,])
                     </string>
                 </dict>
-                
+
                 <!-- DOT NOTATION (methods) -->
                 <dict>
                     <key>begin</key>
@@ -1080,7 +1080,7 @@
                     <key>contentName</key>
                     <string>meta.function.arguments.twig</string>
                 </dict>
-                
+
                 <!-- ARRAY NOTATION -->
                 <dict>
                     <key>captures</key>
@@ -1143,7 +1143,7 @@
                 </dict>
             </array>
         </dict>
-        
+
         <!-- STRINGS -->
         <key>twig-strings</key>
         <dict>
@@ -1152,7 +1152,7 @@
                 <!-- SINGLE QUOTED STRINGS -->
                 <dict>
                     <key>begin</key>
-                    <string>(?&lt;!\\)'</string>
+                    <string>(?&lt;!\\!\\\\)'</string>
                     <key>beginCaptures</key>
                     <dict>
                         <key>0</key>
@@ -1162,7 +1162,7 @@
                         </dict>
                     </dict>
                     <key>end</key>
-                    <string>(?&lt;!\\)'</string>
+                    <string>(?&lt;!\\!\\\\)'</string>
                     <key>endCaptures</key>
                     <dict>
                         <key>0</key>
@@ -1174,11 +1174,11 @@
                     <key>name</key>
                     <string>string.quoted.single.twig</string>
                 </dict>
-                
+
                 <!-- DOUBLE QUOTED STRINGS -->
                 <dict>
                     <key>begin</key>
-                    <string>(?&lt;!\\)"</string>
+                    <string>(?&lt;!\\!\\\\)"</string>
                     <key>beginCaptures</key>
                     <dict>
                         <key>0</key>
@@ -1188,7 +1188,7 @@
                         </dict>
                     </dict>
                     <key>end</key>
-                    <string>(?&lt;!\\)"</string>
+                    <string>(?&lt;!\\!\\\\)"</string>
                     <key>endCaptures</key>
                     <dict>
                         <key>0</key>
@@ -1202,7 +1202,7 @@
                 </dict>
             </array>
         </dict>
-        
+
         <!-- ARRAYS -->
         <key>twig-arrays</key>
         <dict>
@@ -1290,7 +1290,7 @@
             <key>name</key>
             <string>meta.array.twig</string>
         </dict>
-        
+
         <!-- HASHES -->
         <key>twig-hashes</key>
         <dict>
@@ -1384,7 +1384,7 @@
             <key>name</key>
             <string>meta.hash.twig</string>
         </dict>
-        
+
         <!-- KEYWORDS -->
         <key>twig-keywords</key>
         <dict>
@@ -1393,7 +1393,7 @@
             <key>name</key>
             <string>keyword.control.twig</string>
         </dict>
-        
+
         <!-- FUNCTIONS (w/ arguments) -->
         <key>twig-functions-warg</key>
         <dict>
@@ -1480,7 +1480,7 @@
             <key>contentName</key>
             <string>meta.function.arguments.twig</string>
         </dict>
-        
+
         <!-- FUNCTIONS -->
         <key>twig-functions</key>
         <dict>
@@ -1495,7 +1495,7 @@
             <key>match</key>
             <string>(?&lt;=is\s)(defined|empty|even|iterable|none|null|odd)</string>
         </dict>
-        
+
         <!-- MACROS -->
         <key>twig-macros</key>
         <dict>
@@ -1598,9 +1598,9 @@
             </array>
             <key>contentName</key>
             <string>meta.function.arguments.twig</string>
-            
+
         </dict>
-        
+
         <!-- FILTERS (w/ arguments) -->
         <key>twig-filters-warg</key>
         <dict>
@@ -1687,7 +1687,7 @@
             <key>contentName</key>
             <string>meta.function.arguments.twig</string>
         </dict>
-                
+
         <!-- FILTERS -->
         <key>twig-filters</key>
         <dict>
@@ -1702,7 +1702,7 @@
             <key>match</key>
             <string>(?&lt;=(?:[a-zA-Z0-9_\x{7f}-\x{ff}\]\)\'\"]\|)|\{%\sfilter\s)(abs|capitalize|e(?:scape)?|join|(?:json|url)_encode|keys|length|lower|nl2br|number_format|raw|reverse|sort|striptags|title|trim|upper)(?=[\s\|\]\}\):,]|\.\.|\*\*)</string>
         </dict>
-        
+
         <!-- FILTERS (w/ arguments & user-defined) -->
         <key>twig-filters-warg-ud</key>
         <dict>
@@ -1789,7 +1789,7 @@
             <key>contentName</key>
             <string>meta.function.arguments.twig</string>
         </dict>
-        
+
         <!-- FILTERS (user-defined) -->
         <key>twig-filters-ud</key>
         <dict>
@@ -1804,9 +1804,9 @@
             <key>match</key>
             <string>(?&lt;=(?:[a-zA-Z0-9_\x{7f}-\x{ff}\]\)\'\"]\|)|\{%\sfilter\s)([a-zA-Z_\x{7f}-\x{ff}][a-zA-Z0-9_\x{7f}-\x{ff}]*)</string>
         </dict>
-        
+
         <!-- TWIG END -->
-        
+
         <key>php</key>
         <dict>
             <key>begin</key>
