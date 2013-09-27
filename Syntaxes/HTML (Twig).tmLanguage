@@ -1152,7 +1152,7 @@
                 <!-- SINGLE QUOTED STRINGS -->
                 <dict>
                     <key>begin</key>
-                    <string>(?&lt;!\\)'</string>
+                    <string>(?:(?&lt;!\\)|(?&lt;=\\\\))'</string>
                     <key>beginCaptures</key>
                     <dict>
                         <key>0</key>
@@ -1162,7 +1162,7 @@
                         </dict>
                     </dict>
                     <key>end</key>
-                    <string>(?&lt;!\\)'</string>
+                    <string>(?:(?&lt;!\\)|(?&lt;=\\\\))'</string>
                     <key>endCaptures</key>
                     <dict>
                         <key>0</key>
@@ -1178,7 +1178,7 @@
                 <!-- DOUBLE QUOTED STRINGS -->
                 <dict>
                     <key>begin</key>
-                    <string>(?&lt;!\\)"</string>
+                    <string>(?:(?&lt;!\\)|(?&lt;=\\\\))"</string>
                     <key>beginCaptures</key>
                     <dict>
                         <key>0</key>
@@ -1188,7 +1188,7 @@
                         </dict>
                     </dict>
                     <key>end</key>
-                    <string>(?&lt;!\\)"</string>
+                    <string>(?:(?&lt;!\\)|(?&lt;=\\\\))"</string>
                     <key>endCaptures</key>
                     <dict>
                         <key>0</key>
