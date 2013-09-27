@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{% import "${1:forms.html}" as ${2:forms} %}
+
+&lt;p&gt;{{ forms.input('username') }}&lt;/p&gt;
+&lt;p&gt;{{ forms.input('password', null, 'password') }}&lt;/p&gt;</string>
+	<key>name</key>
+	<string>extends copy</string>
+	<key>scope</key>
+	<string>text.html.twig</string>
+	<key>tabTrigger</key>
+	<string>import</string>
+	<key>uuid</key>
+	<string>C2718CB1-7CB3-4855-903F-8452F2C9427A</string>
+</dict>
+</plist>
