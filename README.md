@@ -31,7 +31,7 @@ To install this bundle in Sublime Text, a few extra steps are required.
 
 1. Open Sublime Text and in the _Preferences_ menu click _Browse Packages_.
 2. In the directory that was just opened, create a new directory `PHP-Twig/`.
-3. Extract the contents of the `Syntaxes/` directory into the directory you just created.
+3. Move the contents of the `Syntaxes/` directory of this repo into the directory you just created.
 4. Restart Sublime Text.
 
 #### TextMate
