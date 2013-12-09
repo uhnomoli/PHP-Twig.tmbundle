@@ -25,19 +25,14 @@ I'm also not extremely familiar with TextMate's method of creating language synt
 TextMate, and most editors that support TextMate bundles, allow the installation of bundles simply by extracting an archive or cloning the repository into the application's bundle directory. This bundle is no different. Below is a list of common bundle directories.
 
 
-#### Sublime Text 2
+#### Sublime Text
 
-Linux
+To install this bundle in Sublime Text, a few extra steps are required.
 
-    $XDG_CONFIG_HOME/sublime-text-2/Packages` or `~/.Sublime Text 2/Packages
-
-OS X
-
-    ~/Library/Application Support/Sublime Text 2/Packages
-
-Windows
-
-    %APPDATA%/Sublime Text 2/Packages/
+1. Open Sublime Text and in the _Preferences_ menu click _Browse Packages_.
+2. In the directory that was just opened, create a new directory `PHP-Twig/`.
+3. Extract the contents of the `Syntaxes/` directory into the directory you just created.
+4. Restart Sublime Text.
 
 #### TextMate
 
