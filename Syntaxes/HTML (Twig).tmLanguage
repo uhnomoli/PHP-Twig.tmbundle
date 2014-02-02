@@ -11,17 +11,17 @@
     <string>&lt;!(?i:DOCTYPE)|&lt;(?i:html)|&lt;\?(?i:php)|\{\{|\{%|\{#</string>
     <key>foldingStartMarker</key>
     <string>(?x)
-        (&lt;(?i:head|body|table|thead|tbody|tfoot|tr|div|select|fieldset|style|script|ul|ol|li|form|dl)\b.*?&gt;
+        (&lt;(?i:body|div|dl|fieldset|form|headli|ol||script|select|style|table|tbody|tfoot|thead|tr|ul)\b.*?&gt;
         |&lt;!--(?!.*--\s*&gt;)
         |^&lt;!--\ \#tminclude\ (?&gt;.*?--&gt;)$
-        |\{%\s+(if|for|spaceless|raw|verbatim|autoescape|macro|)
+        |\{%\s+(autoescape|block|embed|filter|for|if|macro|raw|sandbox|set|spaceless|trans|verbatim)
         )</string>
     <key>foldingStopMarker</key>
     <string>(?x)
-        (&lt;/(?i:head|body|table|thead|tbody|tfoot|tr|div|select|fieldset|style|script|ul|ol|li|form|dl)&gt;
+        (&lt;/(?i:body|div|dl|fieldset|form|headli|ol||script|select|style|table|tbody|tfoot|thead|tr|ul)&gt;
         |^(?!.*?&lt;!--).*?--\s*&gt;
         |^&lt;!--\ end\ tminclude\ --&gt;$
-        |\{%\s+end(if|for|spaceless|raw|verbatim|autoescape|macro|)
+        |\{%\s+end(autoescape|block|embed|filter|for|if|macro|raw|sandbox|set|spaceless|trans|verbatim)
         )</string>
     <key>keyEquivalent</key>
     <string>^~T</string>
