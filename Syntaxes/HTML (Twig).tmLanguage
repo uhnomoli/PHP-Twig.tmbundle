@@ -11,14 +11,14 @@
     <string>&lt;!(?i:DOCTYPE)|&lt;(?i:html)|&lt;\?(?i:php)|\{\{|\{%|\{#</string>
     <key>foldingStartMarker</key>
     <string>(?x)
-        (&lt;(?i:body|div|dl|fieldset|form|headli|ol||script|select|style|table|tbody|tfoot|thead|tr|ul)\b.*?&gt;
+        (&lt;(?i:body|div|dl|fieldset|form|head|li|ol|script|select|style|table|tbody|tfoot|thead|tr|ul)\b.*?&gt;
         |&lt;!--(?!.*--\s*&gt;)
         |^&lt;!--\ \#tminclude\ (?&gt;.*?--&gt;)$
         |\{%\s+(autoescape|block|embed|filter|for|if|macro|raw|sandbox|set|spaceless|trans|verbatim)
         )</string>
     <key>foldingStopMarker</key>
     <string>(?x)
-        (&lt;/(?i:body|div|dl|fieldset|form|headli|ol||script|select|style|table|tbody|tfoot|thead|tr|ul)&gt;
+        (&lt;/(?i:body|div|dl|fieldset|form|head|li|ol|script|select|style|table|tbody|tfoot|thead|tr|ul)&gt;
         |^(?!.*?&lt;!--).*?--\s*&gt;
         |^&lt;!--\ end\ tminclude\ --&gt;$
         |\{%\s+end(autoescape|block|embed|filter|for|if|macro|raw|sandbox|set|spaceless|trans|verbatim)
