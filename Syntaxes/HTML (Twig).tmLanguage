@@ -1385,7 +1385,7 @@
         <key>twig-keywords</key>
         <dict>
             <key>match</key>
-            <string>(?&lt;=\s)((?:end)?(?:autoescape|block|embed|filter|for|if|macro|raw|verbatim|sandbox|set|spaceless)|as|do|else|elseif|extends|flush|from|ignore missing|import|include|only|use|with)(?=\s)</string>
+            <string>(?&lt;=\s)((?:end)?(?:autoescape|block|embed|filter|for|if|macro|raw|sandbox|set|spaceless|trans|verbatim)|as|do|else|elseif|extends|flush|from|ignore missing|import|include|only|use|with)(?=\s)</string>
             <key>name</key>
             <string>keyword.control.twig</string>
         </dict>
