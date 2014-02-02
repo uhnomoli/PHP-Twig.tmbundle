@@ -1034,10 +1034,6 @@
                         </dict>
                         <dict>
                             <key>include</key>
-                            <string>#twig-functions-warg</string>
-                        </dict>
-                        <dict>
-                            <key>include</key>
                             <string>#twig-functions</string>
                         </dict>
                         <dict>
@@ -1427,10 +1423,6 @@
                 <dict>
                     <key>include</key>
                     <string>#twig-constants</string>
-                </dict>
-                <dict>
-                    <key>include</key>
-                    <string>#twig-functions-warg</string>
                 </dict>
                 <dict>
                     <key>include</key>
