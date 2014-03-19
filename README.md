@@ -10,7 +10,6 @@ I'd like to thank a few people that have helped me out with the creation of this
 * __taavi__ for fixing a bug stopping the bundle from actually working in TextMate.
 * __DuoSRX__ for contributing a bunch of snippets.
 * __Infininight__ in __##textmate__ _(freenode)_ for helping me a ton with the rewrite.
-* __csuarez__ for contributing an updated theme.
 
 
 ### Notes
@@ -106,18 +105,6 @@ To aid theming, here's a list of what each Twig element is scoped to.
     Macros:            meta.function-call.twig
 
 
-### Extras
-
-I included a few additional things in `/Extras`. There is a screenshot _(same one as displayed below)_ of the bundle in it's current state, as well as the 3 themes I'm maintaining, plus some user contributed ones, that were updated to better accompany this bundle.
-
-
-### Screenshot
-[![Preview][preview-thumb]][preview]
-
-
 [sublime]: http://www.sublimetext.com/
 [textmate]: http://macromates.com/
 [twig]: http://www.twig-project.org/
-[preview]: https://github.com/Anomareh/PHP-Twig.tmbundle/raw/master/Extras/Preview/preview.png
-
-[preview-thumb]: https://github.com/Anomareh/PHP-Twig.tmbundle/raw/master/Extras/Preview/preview-thumb.png
