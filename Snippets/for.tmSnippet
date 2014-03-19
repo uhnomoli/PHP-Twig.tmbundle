@@ -4,7 +4,7 @@
 <dict>
     <key>content</key>
     <string>{% for ${1:item} in ${2:seq} %}
-    $0
+	$0
 {% endfor %}</string>
     <key>name</key>
     <string>for</string>

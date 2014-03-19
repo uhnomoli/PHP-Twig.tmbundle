@@ -4,9 +4,9 @@
 <dict>
     <key>content</key>
     <string>{% for ${1:item} in ${2:seq} %}
-    $3
+	$3
 {% else %}
-    $0
+	$0
 {% endfor %}</string>
     <key>name</key>
     <string>for ... else</string>
