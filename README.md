@@ -37,6 +37,10 @@ To install this bundle in Sublime Text, a few extra steps are required.
 
     /Library/Application Support/TextMate/Bundles
 
+#### TextMate 2
+
+You can install this bundle in TextMate 2 by opening the preferences and going to the bundles tab. After installation it will be automatically updated for you.
+
 
 ### Scopes
 
