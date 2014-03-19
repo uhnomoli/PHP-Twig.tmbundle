@@ -4,7 +4,7 @@
 <dict>
     <key>content</key>
     <string>{% filter ${1:name} %}
-    $0
+	$0
 {% endfilter %}</string>
     <key>name</key>
     <string>filter (block)</string>
