@@ -8,6 +8,31 @@
     <string>Andrew Fricke</string>
     <key>description</key>
     <string>&lt;a href="http://www.twig-project.org/"&gt;Twig&lt;/a&gt;, the flexible, fast, and secure template language for PHP.</string>
+    <key>mainMenu</key>
+    <dict>
+        <key>items</key>
+        <array>
+            <string>237FD3B7-6E10-4EC6-AE0D-3E15F4C81F5F</string>
+            <string>6F4726DF-780F-487C-A3E8-9941FE07AE14</string>
+            <string>C50B6E5F-1AC9-4A69-A3DA-795FF923406D</string>
+            <string>DD51A6F7-B06D-4F14-A277-D47CA7AAE875</string>
+            <string>------------------------------------</string>
+            <string>D8303993-87B8-4A11-8F62-B46985DADE7F</string>
+            <string>BCA09DB8-B815-49DB-B1C0-8A6B11F38B08</string>
+            <string>0BEA6D04-0D04-445C-BE70-1C3DF0AC3B00</string>
+            <string>8ABEF379-1728-4FAE-9352-9FFFC7677E33</string>
+            <string>B330183B-7142-4F44-A818-15762DF44577</string>
+            <string>3A50D3E6-FD45-4EFE-A646-711BD4A53294</string>
+            <string>0D0FA967-4952-4709-9834-CC42E282B642</string>
+            <string>70D1C48B-D648-4B54-B8E9-1CC2F5CE1F9E</string>
+            <string>215DAD25-3899-4D75-83F6-09946761EEC3</string>
+            <string>E72CDFB9-C820-4B78-A203-C30BB2AF51D6</string>
+            <string>BAD5E0CE-E31C-4B79-B1D5-D9C6B558E491</string>
+            <string>53FC9E09-3DA1-479B-B62A-5A350D78928F</string>
+            <string>3FC91D7E-2AE9-418C-AE6A-118179494198</string>
+            <string>A4432221-C42C-4258-88AB-5C9E6B7366B0</string>
+        </array>
+    </dict>
     <key>name</key>
     <string>PHP Twig</string>
     <key>uuid</key>
