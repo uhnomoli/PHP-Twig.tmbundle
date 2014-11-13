@@ -840,7 +840,7 @@
                         </dict>
                     </dict>
                     <key>match</key>
-                    <string>(?&lt;=\s)(\+|-|\*|/|%|//)(?=\s)</string>
+                    <string>(?&lt;=\s)(\+|-|//?|%|\*\*?)(?=\s)</string>
                 </dict>
                 
                 <!-- ASSIGNMENT -->
@@ -868,7 +868,7 @@
                         </dict>
                     </dict>
                     <key>match</key>
-                    <string>(?&lt;=\s)(&amp;|\||\^)(?=\s)</string>
+                    <string>(?&lt;=\s)(b-(?:and|or|xor))(?=\s)</string>
                 </dict>
                 
                 <!-- COMPARISON -->
@@ -882,7 +882,7 @@
                         </dict>
                     </dict>
                     <key>match</key>
-                    <string>(?&lt;=\s)((?:!|=)=|&lt;=?|&gt;=?|i(?:s|n))(?=\s)</string>
+                    <string>(?&lt;=\s)((?:!|=)=|&lt;=?|&gt;=?|(?:not )?in|is(?: not)?|(?:ends|starts) with|matches)(?=\s)</string>
                 </dict>
                 
                 <!-- LOGICAL -->
@@ -896,24 +896,10 @@
                         </dict>
                     </dict>
                     <key>match</key>
-                    <string>(?&lt;=\s)(not|or|and|\?|:)(?=\s)</string>
+                    <string>(?&lt;=\s)(\?|:|and|not|or)(?=\s)</string>
                 </dict>
                 
-                <!-- (**) -->
-                <dict>
-                    <key>captures</key>
-                    <dict>
-                        <key>0</key>
-                        <dict>
-                            <key>name</key>
-                            <string>keyword.operator.arithmetic.twig</string>
-                        </dict>
-                    </dict>
-                    <key>match</key>
-                    <string>(?&lt;=[a-zA-Z0-9_\x{7f}-\x{ff}\]\)'"])\*\*(?=[a-zA-Z0-9_\x{7f}-\x{ff}'"])</string>
-                </dict>
-                
-                <!-- (..) -->
+                <!-- RANGE -->
                 <dict>
                     <key>captures</key>
                     <dict>
@@ -927,7 +913,7 @@
                     <string>(?&lt;=[a-zA-Z0-9_\x{7f}-\x{ff}\]\)'"])\.\.(?=[a-zA-Z0-9_\x{7f}-\x{ff}'"])</string>
                 </dict>
                 
-                <!-- (|) -->
+                <!-- FILTER -->
                 <dict>
                     <key>captures</key>
                     <dict>
@@ -1394,7 +1380,7 @@
         <key>twig-functions-warg</key>
         <dict>
             <key>begin</key>
-            <string>(?&lt;=[\s\(\[\{:,])(attribute|block|constant|cycle|date|divisibleby|dump|parent|random|range|sameas|template_from_string)(\()</string>
+            <string>(?&lt;=[\s\(\[\{:,])(attribute|block|constant|cycle|date|divisible by|dump|include|max|min|parent|random|range|same as|source|template_from_string)(\()</string>
             <key>beginCaptures</key>
             <dict>
                 <key>1</key>
@@ -1485,7 +1471,7 @@
                 </dict>
             </dict>
             <key>match</key>
-            <string>(?&lt;=is\s)(defined|empty|even|iterable|none|null|odd)</string>
+            <string>(?&lt;=is\s)(defined|empty|even|iterable|odd)</string>
         </dict>
         
         <!-- MACROS -->
@@ -1538,6 +1524,10 @@
                 <dict>
                     <key>include</key>
                     <string>#twig-constants</string>
+                </dict>
+                <dict>
+                    <key>include</key>
+                    <string>#twig-operators</string>
                 </dict>
                 <dict>
                     <key>include</key>
@@ -1597,7 +1587,7 @@
         <key>twig-filters-warg</key>
         <dict>
             <key>begin</key>
-            <string>(?&lt;=(?:[a-zA-Z0-9_\x{7f}-\x{ff}\]\)\'\"]\|)|\{%\sfilter\s)(convert_encoding|date|date_modify|default|e|escape|format|join|merge|number_format|replace|slice|split|trim)(\()</string>
+            <string>(?&lt;=(?:[a-zA-Z0-9_\x{7f}-\x{ff}\]\)\'\"]\|)|\{%\sfilter\s)(batch|convert_encoding|date|date_modify|default|e(?:scape)?|format|join|merge|number_format|replace|round|slice|split|trim)(\()</string>
             <key>beginCaptures</key>
             <dict>
                 <key>1</key>
@@ -1692,7 +1682,7 @@
                 </dict>
             </dict>
             <key>match</key>
-            <string>(?&lt;=(?:[a-zA-Z0-9_\x{7f}-\x{ff}\]\)\'\"]\|)|\{%\sfilter\s)(abs|capitalize|e(?:scape)?|join|(?:json|url)_encode|keys|length|lower|nl2br|number_format|raw|reverse|sort|striptags|title|trim|upper)(?=[\s\|\]\}\):,]|\.\.|\*\*)</string>
+            <string>(?&lt;=(?:[a-zA-Z0-9_\x{7f}-\x{ff}\]\)\'\"]\|)|\{%\sfilter\s)(abs|capitalize|e(?:scape)?|first|join|(?:json|url)_encode|keys|last|length|lower|nl2br|number_format|raw|reverse|round|sort|striptags|title|trim|upper)(?=[\s\|\]\}\):,]|\.\.|\*\*)</string>
         </dict>
         
         <!-- FILTERS (w/ arguments & user-defined) -->
