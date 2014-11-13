@@ -1483,7 +1483,7 @@
                     ([a-zA-Z_\x{7f}-\x{ff}][a-zA-Z0-9_\x{7f}-\x{ff}]*)
                     (?:
                         (\.)([a-zA-Z_\x{7f}-\x{ff}][a-zA-Z0-9_\x{7f}-\x{ff}]*)
-                    )
+                    )?
                     (\()
             </string>
             <key>beginCaptures</key>
