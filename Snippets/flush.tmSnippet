@@ -3,16 +3,14 @@
 <plist version="1.0">
 <dict>
     <key>content</key>
-    <string>{% if ${1:expression} %}
-	$0
-{% endif %}</string>
+    <string>{% flush %}$0</string>
     <key>name</key>
-    <string>if (block)</string>
+    <string>flush</string>
     <key>scope</key>
     <string>text.html.twig</string>
     <key>tabTrigger</key>
-    <string>if.</string>
+    <string>flush</string>
     <key>uuid</key>
-    <string>E72CDFB9-C820-4B78-A203-C30BB2AF51D6</string>
+    <string>0710B4A6-5E74-4AFB-833A-573F46083704</string>
 </dict>
 </plist>

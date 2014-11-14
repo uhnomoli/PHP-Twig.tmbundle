@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
     <key>content</key>
-    <string>{% if ${1:expression} %}
+    <string>{% embed '${1:template}'${2: ignore missing}${3: with ${4:vars}${5: only}} %}
 	$0
-{% endif %}</string>
+{% endembed %}</string>
     <key>name</key>
-    <string>if (block)</string>
+    <string>embed (block)</string>
     <key>scope</key>
     <string>text.html.twig</string>
     <key>tabTrigger</key>
-    <string>if.</string>
+    <string>embed.</string>
     <key>uuid</key>
-    <string>E72CDFB9-C820-4B78-A203-C30BB2AF51D6</string>
+    <string>2C5FCF27-E69A-4715-A928-ADA89350FCD2</string>
 </dict>
 </plist>

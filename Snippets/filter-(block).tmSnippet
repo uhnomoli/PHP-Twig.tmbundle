@@ -11,7 +11,7 @@
     <key>scope</key>
     <string>text.html.twig</string>
     <key>tabTrigger</key>
-    <string>filterb</string>
+    <string>filter.</string>
     <key>uuid</key>
     <string>3A50D3E6-FD45-4EFE-A646-711BD4A53294</string>
 </dict>

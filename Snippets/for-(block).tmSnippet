@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
     <key>content</key>
-    <string>{% if ${1:expression} %}
+    <string>{% for ${1:item} in ${2:seq} %}
 	$0
-{% endif %}</string>
+{% endfor %}</string>
     <key>name</key>
-    <string>if (block)</string>
+    <string>for (block)</string>
     <key>scope</key>
     <string>text.html.twig</string>
     <key>tabTrigger</key>
-    <string>if.</string>
+    <string>for.</string>
     <key>uuid</key>
-    <string>E72CDFB9-C820-4B78-A203-C30BB2AF51D6</string>
+    <string>47C3309B-7B03-4838-88F7-4C52A10F4B7A</string>
 </dict>
 </plist>

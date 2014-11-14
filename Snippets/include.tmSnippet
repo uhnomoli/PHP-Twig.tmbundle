@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>content</key>
-    <string>{% include '${1:template}' ${2:with ${3:vars}${4: only}} %}$0</string>
+    <string>{% include '${1:template}'${2: ignore missing}${3: with ${4:vars}${5: only}} %}$0</string>
     <key>name</key>
     <string>include</string>
     <key>scope</key>
