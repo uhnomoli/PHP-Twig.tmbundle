@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
     <key>content</key>
-    <string>{% $1$2 %}$0{% end$1 %}</string>
+    <string>{% autoescape %}$0{% endautoescape %}</string>
     <key>name</key>
-    <string>{% ... %}</string>
+    <string>autoescape</string>
     <key>scope</key>
     <string>text.html.twig</string>
     <key>tabTrigger</key>
-    <string>%%</string>
+    <string>escape</string>
     <key>uuid</key>
-    <string>237FD3B7-6E10-4EC6-AE0D-3E15F4C81F5F</string>
+    <string>826AABB9-D812-46D8-8923-492911AF519C</string>
 </dict>
 </plist>
