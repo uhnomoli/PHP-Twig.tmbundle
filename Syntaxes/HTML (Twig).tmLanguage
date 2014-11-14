@@ -517,15 +517,15 @@
         <!-- TWIG START -->
         <dict>
             <key>include</key>
-            <string>#twig-variable-tags</string>
+            <string>#twig-print-tag</string>
         </dict>
         <dict>
             <key>include</key>
-            <string>#twig-expression-tags</string>
+            <string>#twig-statement-tag</string>
         </dict>
         <dict>
             <key>include</key>
-            <string>#twig-comment-tags</string>
+            <string>#twig-comment-tag</string>
         </dict>
         <!-- TWIG END -->
     </array>
@@ -547,15 +547,15 @@
                 <!-- TWIG START -->
                 <dict>
                     <key>include</key>
-                    <string>#twig-variable-tags</string>
+                    <string>#twig-print-tag</string>
                 </dict>
                 <dict>
                     <key>include</key>
-                    <string>#twig-expression-tags</string>
+                    <string>#twig-statement-tag</string>
                 </dict>
                 <dict>
                     <key>include</key>
-                    <string>#twig-comment-tags</string>
+                    <string>#twig-comment-tag</string>
                 </dict>
                 <!-- TWIG END -->
                 
@@ -599,8 +599,8 @@
         
         <!-- TWIG START -->
         
-        <!-- VARIABLES -->
-        <key>twig-variable-tags</key>
+        <!-- PRINT TAG -->
+        <key>twig-print-tag</key>
         <dict>
             <key>begin</key>
             <string>\{\{-?</string>
@@ -685,8 +685,8 @@
             </array>
         </dict>
         
-        <!-- EXPRESSIONS -->
-        <key>twig-expression-tags</key>
+        <!-- STATEMENT TAG -->
+        <key>twig-statement-tag</key>
         <dict>
             <key>begin</key>
             <string>\{%-?</string>
@@ -775,8 +775,8 @@
             </array>
         </dict>
         
-        <!-- COMMENTS -->
-        <key>twig-comment-tags</key>
+        <!-- COMMENT TAG -->
+        <key>twig-comment-tag</key>
         <dict>
             <key>begin</key>
             <string>\{#-?</string>
