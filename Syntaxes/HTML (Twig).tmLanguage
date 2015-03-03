@@ -353,6 +353,22 @@
                             <key>include</key>
                             <string>#php</string>
                         </dict>
+                        
+                        <!-- TWIG START -->
+                        <dict>
+                            <key>include</key>
+                            <string>#twig-print-tag</string>
+                        </dict>
+                        <dict>
+                            <key>include</key>
+                            <string>#twig-statement-tag</string>
+                        </dict>
+                        <dict>
+                            <key>include</key>
+                            <string>#twig-comment-tag</string>
+                        </dict>
+                        <!-- TWIG END -->
+                        
                         <dict>
                             <key>include</key>
                             <string>source.js</string>
