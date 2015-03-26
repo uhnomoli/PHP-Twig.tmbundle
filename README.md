@@ -32,6 +32,7 @@ To install this bundle in Sublime Text, a few extra steps are required.
 2. In the directory that was just opened, create a new directory `PHP-Twig/`.
 3. Move the contents of the `Preferences/`, `Snippets/`, and `Syntaxes/` directories of this repo into the directory you just created.
 4. Restart Sublime Text.
+5. The syntax is called HTML (Twig).
 
 ### TextMate
 
