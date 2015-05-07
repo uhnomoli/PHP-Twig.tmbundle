@@ -11,7 +11,7 @@
     <key>scope</key>
     <string>text.html.twig</string>
     <key>tabTrigger</key>
-    <string>escape.</string>
+    <string>escape:</string>
     <key>uuid</key>
     <string>7F4DD115-8AA4-4304-88F7-9FBC2DCE0982</string>
 </dict>

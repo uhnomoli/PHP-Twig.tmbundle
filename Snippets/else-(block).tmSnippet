@@ -10,7 +10,7 @@
     <key>scope</key>
     <string>text.html.twig</string>
     <key>tabTrigger</key>
-    <string>else.</string>
+    <string>else:</string>
     <key>uuid</key>
     <string>CB2AF7A4-0A08-4574-B419-71431710DE15</string>
 </dict>

@@ -11,7 +11,7 @@
     <key>scope</key>
     <string>text.html.twig</string>
     <key>tabTrigger</key>
-    <string>embed.</string>
+    <string>embed:</string>
     <key>uuid</key>
     <string>2C5FCF27-E69A-4715-A928-ADA89350FCD2</string>
 </dict>

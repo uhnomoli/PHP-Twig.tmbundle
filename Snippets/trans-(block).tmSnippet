@@ -11,7 +11,7 @@
     <key>scope</key>
     <string>text.html.twig</string>
     <key>tabTrigger</key>
-    <string>trans.</string>
+    <string>trans:</string>
     <key>uuid</key>
     <string>434E7B33-170B-4679-9AD2-DC46777B0868</string>
 </dict>

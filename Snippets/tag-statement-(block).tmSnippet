@@ -11,7 +11,7 @@
     <key>scope</key>
     <string>text.html.twig</string>
     <key>tabTrigger</key>
-    <string>%%.</string>
+    <string>%%:</string>
     <key>uuid</key>
     <string>15A05069-9D4A-41B3-BC23-4ADC25FAC28E</string>
 </dict>
