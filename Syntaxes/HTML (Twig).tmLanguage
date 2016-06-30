@@ -7,8 +7,6 @@
         <string>twig</string>
         <string>html.twig</string>
     </array>
-    <key>firstLineMatch</key>
-    <string>&lt;!(?i:DOCTYPE)|&lt;(?i:html)|&lt;\?(?i:php)|\{\{|\{%|\{#</string>
     <key>foldingStartMarker</key>
     <string>(?x)
         (&lt;(?i:body|div|dl|fieldset|form|head|li|ol|script|select|style|table|tbody|tfoot|thead|tr|ul)\b.*?&gt;
