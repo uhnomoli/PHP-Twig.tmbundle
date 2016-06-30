@@ -1815,7 +1815,7 @@
             <array>
                 <dict>
                     <key>include</key>
-                    <string>source.php</string>
+                    <string>text.html.php</string>
                 </dict>
             </array>
         </dict>
