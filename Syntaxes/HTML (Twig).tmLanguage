@@ -6,6 +6,7 @@
     <array>
         <string>twig</string>
         <string>html.twig</string>
+        <string>twig.html</string>
     </array>
     <key>keyEquivalent</key>
     <string>^~T</string>
