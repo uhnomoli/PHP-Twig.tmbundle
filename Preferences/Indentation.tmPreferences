@@ -19,7 +19,7 @@
             |\})
         )|
         (?:
-            ^\s*\{%-?\s(end(?:autoescape|block|embed|filter|for|if|macro|raw|sandbox|set|spaceless|trans|verbatim)|(else))(?:(?!%\}).)*\s-?%\}
+            ^\s*\{%-?\s(end(?:autoescape|block|embed|filter|for|if|macro|raw|sandbox|spaceless|trans|verbatim)|(else))(?:(?!%\}).)*\s-?%\}
         )
         </string>
         <key>increaseIndentPattern</key>
@@ -33,7 +33,7 @@
             |\{[^}"']*$
         )|
         (?:
-            ^\s*\{%-?\s(autoescape|block|embed|filter|for|if|else|macro|raw|sandbox|set|spaceless|trans|verbatim)(?:(?!%\}).)*\s-?%\}(?!.*\{%-?\send\1)
+            ^\s*\{%-?\s(autoescape|block|embed|filter|for|if|else|macro|raw|sandbox|spaceless|trans|verbatim)(?:(?!%\}).)*\s-?%\}(?!.*\{%-?\send\1)
         )
         </string>
         <key>bracketIndentNextLinePattern</key>
