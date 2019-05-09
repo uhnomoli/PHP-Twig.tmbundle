@@ -251,7 +251,7 @@
         </dict>
         <dict>
             <key>begin</key>
-            <string>(?:^\s+)?(&lt;)((?i:script))\b(?![^&gt;]*/&gt;)</string>
+            <string>(?:^\s+)?(&lt;)((?i:script))\b(?![^&gt;]*type=["']text\/(?:html|template)['"]|[^&gt;]*\/&gt;)</string>
             <key>beginCaptures</key>
             <dict>
                 <key>1</key>
